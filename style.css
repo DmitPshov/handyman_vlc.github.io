@@ -180,8 +180,13 @@ header .text-shadow{
   min-height: 40vh;
   text-align: center;
   border-radius: .5rem; 
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.home2 .banner_image{
+.home2 .back_image{
   position: absolute;
   top: 0;
   right: 0;
@@ -195,14 +200,18 @@ header .text-shadow{
   background-clip: content-box;
   border-radius: .5rem;
 }
-.home2 .banner{
+.home2 .tile{
   margin-top: 4%;
   font-size: 2.2rem;
   font-weight: 700;
   color: #f9f9f9;
 }
-.master{
+.home2 .master{
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .home2 .value{
   font-size: 1.7rem;
@@ -230,6 +239,7 @@ header .text-shadow{
   margin-bottom: 1rem;
   color: #fbe239;
 }
+
 
 
 
