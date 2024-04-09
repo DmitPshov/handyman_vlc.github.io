@@ -219,6 +219,7 @@ header .text-shadow{
   color:#fbe239;;
 }
 .home2 .phone{
+  margin-top: 0.8rem;
   height: 1.8rem;
   padding: 0 1rem;
   font-size: 1.1rem;
@@ -226,13 +227,14 @@ header .text-shadow{
   border-radius:1rem;
 } 
 .phone_button{
-  
+  margin-top: 0.8rem;
   height: 1.8rem;
   padding: 0 1rem;
   font-size: 1.1rem;
   border-radius:1rem;
   background-color:#fbe239;
   border:none;
+  text-align: center;
 }
 .before{
   margin-top: 1.5rem;
