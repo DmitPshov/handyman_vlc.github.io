@@ -25,6 +25,7 @@
   right: 0;
   box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
   z-index: 3;
+  margin-bottom: 1rem;
  }
  header .menu{
   display: flex;
@@ -93,14 +94,14 @@ header .text-shadow{
 }
 .overlay-meny .navbar-content{
   position: absolute;
-  top: 25%;
+  top: 10%;
   width: 100%;
   text-align: center;
   margin-top: 1rem;
 }
 .overlay-meny .navbar-content a{
   display: block;
-  padding: 1.5rem;
+  padding: 1rem;
   color: #fff;
   font-size: calc(14px + 11 * ((100vw  - 300px) / 1200));
   transition: 0.5s;
@@ -160,20 +161,13 @@ header .text-shadow{
     opacity: .1;
     right: 0;
   }
-  header .logo{
+  header strong{
     display: none;
   }
-  header .logo_mini img{
-    height: 3rem;
+  header .logo img{
+    height: 3.5rem;
    }
-  header .logo_mini{
-    display: block;
-  }
-  header strong {
-    display: none;
-  }
 }
-
 @media (max-width: 470px){
   .box-container{
     margin: 0;
@@ -182,6 +176,7 @@ header .text-shadow{
     margin: 1rem 0 !important;
   }
 }
+
 .home2{
   position: relative;
   width: 100%;
@@ -248,8 +243,8 @@ header .text-shadow{
   margin-top: 1.5rem;
   margin-bottom: 1rem;
   color: #fbe239;
+  /* font-size: calc(14px + 11 * ((100vw  - 300px) / 1200)); */
 }
-
 
 
 
@@ -262,10 +257,9 @@ header .text-shadow{
   margin: 0 3%;
 }
 .box-container a{
-  height: 12rem;
+  height: 25rem;
   max-width: 25rem;
   flex: 1 1 20rem;
-  background: #e8ece2;
   margin: 2rem;
   /* border:  .2rem solid var(--yellow); */
   box-shadow: 0 0 1rem rgba(0, 0, 0, .3);
@@ -283,6 +277,26 @@ header .text-shadow{
   text-shadow:3px 3px 2px #000;
 }
 
+/* about section  */
+.about{
+  width: 100%;
+  /* background-color: #e0e7eb; */
+}
+.about h3{
+ text-align: center;
+ font-size: 2rem;
+}
+.about h4{
+  margin-left: 5%;
+}
+.about p{
+  display: block;
+  margin: 0 5% 1rem 5%;
+}
+.about p:last-child{
+  margin: 0 5% 0 5%;
+  padding-bottom: 1rem;
+}
 
 /* contacts section */
 .btn{
@@ -355,6 +369,7 @@ header .text-shadow{
   font-size: 1.2rem;
   resize: none;
 }
+
 
 /* footer section */
 .footer{
