@@ -163,7 +163,6 @@ header .text-shadow{
 } */
 @media (max-width: 960px){
   .imgHome{
-    /* display: none; */
     opacity: .1;
     right: 0;
   }
@@ -255,7 +254,6 @@ header .text-shadow{
   margin-top: 1.5rem;
   margin-bottom: 1rem;
   color: #fbe239;
-  /* font-size: calc(14px + 11 * ((100vw  - 300px) / 1200)); */
 }
 
 
@@ -310,7 +308,6 @@ header .text-shadow{
 /* about section  */
 .about{
   width: 100%;
-  /* background-color: #e0e7eb; */
 }
 .about h3{
  text-align: center;
