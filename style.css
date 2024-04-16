@@ -182,6 +182,12 @@ header .text-shadow{
     margin: 1rem 0 !important;
   }
 }
+@media (max-width: 325px){
+  .center a{
+    padding: .7rem !important;
+    font-size: calc(12px + 11 * ((100vw  - 300px) / 1200)) !important;
+  }
+}
 
 .home2{
   position: relative;
