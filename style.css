@@ -182,10 +182,10 @@ header .text-shadow{
     margin: 1rem 0 !important;
   }
 }
-@media (max-width: 325px){
+@media (max-width: 330px){
   .center a{
     padding: .7rem !important;
-    font-size: calc(12px + 11 * ((100vw  - 300px) / 1200)) !important;
+    font-size: calc(10px + 10 * ((100vw  - 300px) / 1200)) !important;
   }
 }
 
