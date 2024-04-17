@@ -153,7 +153,6 @@ header .text-shadow{
   border-radius:50%;
   height: 18rem;
   right: -20%;
-  content: "";
   position: relative;
   z-index: 2;
 }
