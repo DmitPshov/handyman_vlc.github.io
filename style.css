@@ -126,11 +126,13 @@ header .text-shadow{
   background-color: #e0e7eb;
   border-radius: .5rem;
   z-index: 0;
+  -webkit-z-index: 0;
 }
 .home .disc{
   position: absolute;
   left: 3%;
   z-index: 5;
+  -webkit-z-index: 5;
 }
 .home .disc h1{
   margin-bottom: 2rem;
@@ -159,6 +161,9 @@ header .text-shadow{
   .home .imgHome{
     opacity: 0.2;
     right: 0;
+    -webkit-opacity: 0.2;
+    -webkit-right: 0;
+    -webkit-z-index: 2;
   }
   header strong{
     display: none;
