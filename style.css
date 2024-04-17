@@ -17,6 +17,10 @@ hr{
   height: 1px;
   background-color: #07075e;
 }
+h2{
+  text-align: center;
+  font-size: 2rem;
+}
  header{
   transition: top 2s ease; /* Плавная анимация появления/исчезания */
   width: 100%;
@@ -303,13 +307,12 @@ header .text-shadow{
   height: calc(28px + 11 * ((100vw  - 300px) / 1200));;
 }
 
-/* about section  */
 .about{
   width: 100%;
 }
 .about h3{
  text-align: center;
- font-size: 2rem;
+ font-size: 1.7rem;
 }
 .about h4{
   margin-left: 5%;
