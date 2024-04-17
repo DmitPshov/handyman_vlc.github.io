@@ -409,18 +409,14 @@ header .text-shadow{
   align-items: center;
   flex-direction: column;
 }
-.footer .social-media{
-  font-size: 1.5rem;
+
+.footer .social-media  img{
+  height: 2.5rem;
   
-}
-.footer .social-media a i{
-  margin: 0rem .5rem;
-  padding: 1rem;
-  color: #fff;
+  padding: .5rem 1rem;
   transition: 0.3s;
 }
-.footer .social-media i:hover{
-  color: var(--yellow);
+.footer .social-media img:hover{
   cursor: pointer;
 }
 .footer .phone_footer{
@@ -434,7 +430,6 @@ header .text-shadow{
   color: #fff;
   margin-bottom: .5rem;
 }
-
 
 
 
