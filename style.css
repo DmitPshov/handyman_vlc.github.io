@@ -412,7 +412,7 @@ header .text-shadow{
 
 .footer .social-media  img{
   height: 2.5rem;
-  
+  margin: 0 0.2rem;
   padding: .5rem 1rem;
   transition: 0.3s;
 }
