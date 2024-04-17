@@ -157,7 +157,7 @@ header .text-shadow{
 }
 @media (max-width: 960px){
   .home .imgHome{
-    opacity: .1;
+    opacity: 0.2;
     right: 0;
   }
   header strong{
