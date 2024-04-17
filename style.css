@@ -149,8 +149,7 @@ header .text-shadow{
 .home .imgHome{
   background-size: auto;
   border-radius:50%;
-  height: 20rem;
-  opacity: .9;
+  height: 18rem;
   right: -20%;
   content: "";
   position: relative;
