@@ -227,7 +227,7 @@ header .text-shadow{
   color: #07075e;
   background-color: #b3e5fc;
   border:none;
-  font-size: calc(14px + 11 * ((100vw  - 300px) / 1200));
+  font-size: calc(12px + 11 * ((100vw  - 300px) / 1200));
   font-weight: 800;
   border-radius:2rem;
 }
