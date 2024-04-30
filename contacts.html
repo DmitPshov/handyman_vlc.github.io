@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Handyman VLC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+
+  </head>
+<body>
+    <div class="overlay-meny" id="myNav">
+        <a href="#" class="closebtn" onclick="closeNav()">x</a>
+        <div class="navbar-content">
+            <a href="manitas.html">Мастер на час</a>
+            <a href="electricista.html">Электрика</a>
+            <a href="#">Сантехника</a>
+            <a href="#">Кондиционирование</a>
+            <a href="#">Охранные системы</a>
+            <a href="#">Роллеты</a>
+            <a href="#">Ремонт быттехники</a>
+            <a href="#">Мебель</a>
+            <a href="contacts.html">Контакты</a>
+        </div>
+    </div>
+  <header id="main-header">
+    <a href="/"   class="logo"> 
+      <img class="mainLogo" src="img/onlinelogomaker-1.svg"></img>
+    </a>
+    
+      <div class="menu">
+        
+          <select class="change-lang">
+              <option value=""class="change-lang">ES</option>
+              <option value=""class="change-lang">EN</option>
+              <option value=""class="change-lang">RU</option>
+          </select>
+
+          <strong>
+              <a href="https://wa.me/34643568445"><img src="img/whatsapp_chat.png" alt="phone"><span class="text-shadow">+34 643 56 84 45</span></a>
+          </strong> 
+
+          <button class="burger">
+              <img src="img/menu_hamburger_icon .png" onclick="openNav()    ">
+          </button>
+      </div>   
+</header>
+
+<section class="contacts">
+  <h2 class="heading"> Связаться с нами </h2>
+  <div class="box-container">
+      <div class="content">
+          <h3>ЛУЧШИЕ В ВАЛЕНСИИ</h3>
+          <h2>У вас есть вопросы или нужна помощь с ремонтом?</h2>
+          <p>Заполните форму обратной связи и мы       
+              свяжемся  с вами в ближайшее время,
+              чтобы обсудить возможности ремонта! Наш компетентный и дружелюбный персонал готов помочь вам в любое время.</p>
+      </div>
+      <div class="form">
+          <input type="text" required placeholder="Enter your name">
+          <input type="tel" required placeholder="Enter your phone (+123-45-678-900)">
+          <textarea cols="30" rows="10" placeholder="Enter your message"></textarea>
+          <button class="btn">Оставить заявку</button>
+      </div>
+  </div>
+</section>
+
+<hr>
+
+    <footer class="footer">
+        <div class="social-media">
+            <a href="https://www.facebook.com/handyman.vlc">
+                <img src="img/facebook.svg" alt=""></a>
+            <a href="https://www.instagram.com/handyman_vlc">
+                <img src="img/instagram.svg" alt=""></a>
+            <a href="https://wa.me/34643568445">
+                <img src="img/whatsapp.svg" alt=""></a>
+        </div>
+        <a href="tel:+34643568445" class="phone_footer">
+            <img src="img/phone.svg" alt=""> +34643568445</a>
+        <p>&copy; 2024 Handyman VLC. </p>
+    </footer>
+
+
+
+<script>
+    function openNav() {
+        document.getElementById('myNav').style.width = "100%";
+    }
+    function closeNav(){
+        document.getElementById('myNav').style.width = "0%";
+    }
+</script>
+</body>
+</html>
