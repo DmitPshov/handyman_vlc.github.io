@@ -268,8 +268,11 @@ header .text-shadow{
   margin: 0 5% 0 5%;
   padding-bottom: 1rem;
 }
+.about a{
+  font-size: calc(16px + 11 * (100vw / 1500));
+}
 .about a img{
-  height: 1.3rem;
+  height: calc(18px + 11 * (100vw / 1500));
   margin-right: 0.2rem;
 }
 .ulli{
