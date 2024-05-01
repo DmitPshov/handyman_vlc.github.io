@@ -113,7 +113,7 @@ header .text-shadow{
   display: block;
   padding: 1rem;
   color: #fff;
-  font-size: calc(14px + 11 * (100vw / 1200));
+  font-size: calc(15px + 11 * (100vw / 1200));
   transition: 0.5s;
 }
 .overlay-meny .navbar-content a:hover{
@@ -186,7 +186,7 @@ header .text-shadow{
 @media (max-width: 325px){
   .center a{
     padding: .7rem !important;
-    font-size: calc(12px + 11 * (100vw / 1200)) !important;
+    font-size: calc(13px + 11 * (100vw / 1200)) !important;
   }
 }
 
@@ -227,7 +227,7 @@ header .text-shadow{
   color: #07075e;
   background-color: #b3e5fc;
   border:none;
-  font-size: calc(12px + 11 * (100vw / 1200));
+  font-size: calc(13px + 11 * (100vw / 1200));
   font-weight: 800;
   border-radius:2rem;
 }
@@ -248,7 +248,7 @@ header .text-shadow{
   font-size: calc(14px + 11 * (100vw / 1200));
 }
 .about h5{
-  font-size: calc(12px + 11 * (100vw / 1200));
+  font-size: calc(13px + 11 * (100vw / 1200));
 }
 .about p{
   display: block;
@@ -276,7 +276,7 @@ header .text-shadow{
   position: relative; */
   margin: 1rem 0;
   padding-left: 10px;
-  font-size: calc(14px + 11 * (100vw / 1200));
+  font-size: calc(15px + 11 * (100vw / 1200));
   font-style: italic ;
 }
 
