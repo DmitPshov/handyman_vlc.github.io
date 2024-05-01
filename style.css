@@ -19,7 +19,13 @@ hr{
 }
 h2{
   text-align: center;
-  font-size: 2rem;
+  font-size: calc(18px + 11 * (100vw / 1500));
+}
+h3{
+  font-size: calc(16px + 11 * (100vw / 1500));
+}
+ h4{
+  font-size: calc(14px + 11 * (100vw / 1500));
 }
  header{
   transition: top 2s ease; /* Плавная анимация появления/исчезания */
