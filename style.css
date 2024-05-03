@@ -8,7 +8,8 @@
   transition: all .5s;
  }
 :root{
-  --yellow: #fbe239;;
+  --yellow: #fbe239;
+  --whatsap: #25d366;
  }
 hr{
   width: 50%;
@@ -230,8 +231,8 @@ header .text-shadow{
 }
 .center a{
   padding: 1rem;
-  color: #07075e;
-  background-color: #b3e5fc;
+  color: #fff;
+  background-color: var(--whatsap);
   border:none;
   font-size: calc(13px + 11 * (100vw / 1200));
   font-weight: 800;
