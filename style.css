@@ -7,11 +7,6 @@
   list-style-position: outside;
   transition: all .5s;
  }
- body{
-  overflow-x: hidden;
-  width: 100vw;
-  max-width: 100%;
- }
 :root{
   --yellow: #fbe239;
   --whatsap: #25d366;
@@ -194,6 +189,9 @@ header .text-shadow{
   .box-container a{
     margin: 1rem 0 !important;
   }
+  .title img{
+  max-width: 25rem;
+}
 }
 @media (max-width: 325px){
   .center a{
