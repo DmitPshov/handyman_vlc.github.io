@@ -8,7 +8,6 @@
   transition: all .5s;
  }
  body{
-  overflow-x: hidden;
   width: 100vw;
   max-width: 100%;
  }
@@ -397,6 +396,7 @@ header .text-shadow{
 }
 
 .title{
+  max-width: 100%;
   position: relative;
   text-align: center;
 
