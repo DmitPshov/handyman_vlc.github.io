@@ -7,6 +7,11 @@
   list-style-position: outside;
   transition: all .5s;
  }
+ body{
+  overflow-x: hidden;
+  width: 100vw;
+  max-width: 100%;
+ }
 :root{
   --yellow: #fbe239;
   --whatsap: #25d366;
