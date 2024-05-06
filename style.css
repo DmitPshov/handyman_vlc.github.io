@@ -502,8 +502,8 @@ header .text-shadow{
 
 /* swiper */
 .swiper {
-  width: 450px;
-  height: 300px;
+  overflow-x: hidden;
+  max-width: 450px;
 }
 
 .swiper-slide {
