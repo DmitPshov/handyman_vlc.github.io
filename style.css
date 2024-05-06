@@ -7,10 +7,6 @@
   list-style-position: outside;
   transition: all .5s;
  }
- body{
-  width: 100vw;
-  max-width: 100%;
- }
 :root{
   --yellow: #fbe239;
   --whatsap: #25d366;
@@ -396,15 +392,16 @@ header .text-shadow{
 }
 
 .title{
-  max-width: 100%;
+  overflow-x: hidden;
   position: relative;
   text-align: center;
+  max-width: 100%;
 
 }
 .title img{
   background-size: contain;
-  min-width: 30rem;;
-  max-height: 15rem;
+  max-height: 17em;
+  max-width: 30rem;
 }
 .title h1{
   position: absolute;
