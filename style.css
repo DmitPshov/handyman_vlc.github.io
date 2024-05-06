@@ -233,16 +233,16 @@ header .text-shadow{
  margin-bottom: 4rem;
 }
 .center a{
-  padding: 1rem;
+  padding: 0.7rem;
   color: #fff;
   background-color: var(--whatsap);
   border:none;
-  font-size: calc(13px + 11 * (100vw / 1200));
+  font-size: calc(12px + 11 * (100vw / 1500));
   font-weight: 800;
   border-radius:2rem;
 }
 .center a img{
-  height: calc(28px + 11 * (100vw / 1200));;
+  height: calc(18px + 11 * (100vw / 1500));;
 }
 
 /* about section  */
