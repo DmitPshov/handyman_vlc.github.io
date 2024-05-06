@@ -518,7 +518,13 @@ header .text-shadow{
   width: 100%;
   object-fit: cover;
 }
-
+.hidden{
+  transform: translateX(-10%);
+  transition: all 3s;
+}
+.show{
+  transform: translateX(0);
+}
 
 
 
