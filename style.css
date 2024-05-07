@@ -274,6 +274,7 @@ header .text-shadow{
 }
 .about a{
   font-size: calc(16px + 11 * (100vw / 1500));
+  color:#032049;
 }
 .about a img{
   height: calc(18px + 11 * (100vw / 1500));
