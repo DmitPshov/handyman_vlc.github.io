@@ -141,7 +141,7 @@
         var phone = document.getElementById('phone').value;
         var message = document.getElementById('message').value;
         var url = "https:/api.whatsapp.com/send?phone=" + "34643568445" + "&text=" + encodeURIComponent("Name: " + name + "\nPhone: " + phone + "\nMessage: " + message);
-        window.open(url, '_blank')
+       window.location.href = url;
     }
   </script>
 </body>
