@@ -156,9 +156,7 @@
             <img src="img/phone.svg" alt=""> +34643568445</a>
         <p>&copy; 2024 Handyman VLC. </p>
     </footer>
-
-
-
+    
 <script>
     function openNav() {
         document.getElementById('myNav').style.width = "100%";
@@ -166,21 +164,16 @@
     function closeNav(){
         document.getElementById('myNav').style.width = "0%";
     }
-
  document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('form');   
     form.addEventListener('submit', (event) => {
         event.preventDefault();
-
         const name = document.getElementById('name').value;
         const phone = document.getElementById('phone').value;
         const message = document.getElementById('message').value;
-
-        const whatsappNumber = '34643568445'; // замените на номер вашего WhatsApp
+        const whatsappNumber = '34643568445';
         const text = `Name: ${name}\nPhone: ${phone}\nMessage: ${message}`;
-
         const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
-        
         window.location.href = url;
     });
 });
