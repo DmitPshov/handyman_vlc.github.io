@@ -103,12 +103,12 @@
                 свяжемся  с вами в ближайшее время,
                 чтобы обсудить возможности ремонта! Наш компетентный и дружелюбный персонал готов помочь вам в любое время.</p>
         </div>
-        <div class="form">
-            <input type="text" required placeholder="Enter your name">
-            <input type="tel" required placeholder="Enter your phone (+123-45-678-900)">
-            <textarea cols="30" rows="10" placeholder="Enter your message"></textarea>
-            <button class="btn">Оставить заявку</button>
-        </div>
+        <form class="form" id="form">
+            <input type="text" id="name" required placeholder="Enter your name">
+            <input type="tel" id="phone" required placeholder="Enter your phone">
+            <textarea id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+            <button type="submit" class="btn">Оставить заявку</button>
+        </form>
     </div>
   </section>
   <hr>
@@ -134,6 +134,14 @@
     }
     function closeNav() {
       document.getElementById('myNav').style.width = "0%";
+    }
+    document.getElementById('form').onsubmit = function(event) {
+        event.preventDefault();
+        var name = document.getElementById('name').value;
+        var phone = document.getElementById('phone').value;
+        var message = document.getElementById('message').value;
+        var url = "https:/api.whatsapp.com/send?phone=" + "34643568445" + "&text=" + encodeURIComponent("Name: " + name + "\nPhone: " + phone + "\nMessage: " + message);
+        window.open(url, '_blank')
     }
   </script>
 </body>
