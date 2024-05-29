@@ -166,14 +166,6 @@
     function closeNav(){
         document.getElementById('myNav').style.width = "0%";
     }
-    document.getElementById('form').onsubmit = function(event) {
-        event.preventDefault();
-        var name = document.getElementById('name').value;
-        var phone = document.getElementById('phone').value;
-        var message = document.getElementById('message').value;
-        var url = "https:/api.whatsapp.com/send?phone=" + "34643568445" + "&text=" + encodeURIComponent("Name: " + name + "\nPhone: " + phone + "\nMessage: " + message);
-        window.open(url, '_blank');
-    }
 
       document.addEventListener('DOMContentLoaded', () => {
         const form = document.getElementById('form');   
