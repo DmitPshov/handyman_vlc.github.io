@@ -99,12 +99,12 @@
                 свяжемся  с вами в ближайшее время,
                 чтобы обсудить возможности ремонта! Наш компетентный и дружелюбный персонал готов помочь вам в любое время.</p>
         </div>
-        <form class="form" id="form">
-            <input type="text" id="name" required placeholder="Enter your name">
-            <input type="tel" id="phone" required placeholder="Enter your phone">
-            <textarea id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
-            <button type="submit" class="btn">Оставить заявку</button>
-        </form>
+<form class="form" id="form">
+  <input type="text" id="name" required placeholder="Enter your name">
+  <input type="tel" id="phone" required placeholder="Enter your phone">
+  <textarea id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+  <button type="submit" class="btn">Оставить заявку</button>
+</form>
     </div>
   </section>
 <hr>
@@ -131,14 +131,21 @@
     function closeNav(){
         document.getElementById('myNav').style.width = "0%";
     }
-    document.getElementById('form').onsubmit = function(event) {
-        event.preventDefault();
-        var name = document.getElementById('name').value;
-        var phone = document.getElementById('phone').value;
-        var message = document.getElementById('message').value;
-        var url = "https:/api.whatsapp.com/send?phone=" + "34643568445" + "&text=" + encodeURIComponent("Name: " + name + "\nPhone: " + phone + "\nMessage: " + message);
-        window.open(url, '_blank')
-    }
+    
+   document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('form');   
+  form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const name = document.getElementById('name').value;
+      const phone = document.getElementById('phone').value;
+      const message = document.getElementById('message').value;
+      const whatsappNumber = '34643568445';
+      const text = `Name: ${name}\nPhone: ${phone}\nMessage: ${message}`;
+      const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+      window.location.href = url;
+  });
+});
+    
 </script>
 </body>
 </html>
