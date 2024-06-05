@@ -346,8 +346,10 @@ header .text-shadow{
 .contacts .box-container .form{
  flex: 1 1 20rem;
  padding: 2rem 2.5rem; 
- background-color: #4c6c4e;
- 
+ /*background-color: #4c6c4e;*/
+ background: linear-gradient(45deg, #64b5f6, #81c784, #ffeb3b, #ff8a65);
+ background-size: 400% 400%;
+ animation: gradientAnimation 7s ease infinite;
 }
 .contacts .box-container .form input, .contacts .box-container .form textarea{
   width: 100%;
