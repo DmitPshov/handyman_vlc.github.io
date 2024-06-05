@@ -520,4 +520,15 @@ header .text-shadow{
   object-fit: cover;
 }
 
+/* создается анимированный градиентный фон */
+  .formN {
+        background: linear-gradient(45deg, #64b5f6, #81c784, #ffeb3b, #ff8a65);
+        background-size: 400% 400%;
+        animation: gradientAnimation 7s ease infinite;
+      }
+    @keyframes gradientAnimation {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+      }
 
