@@ -9,9 +9,7 @@
   <title>Handyman VLC</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-
 </head>
-
 <body>
   <div class="overlay-meny" id="myNav">
     <a href="#" class="closebtn" onclick="closeNav()">x</a>
@@ -31,30 +29,24 @@
     <a href="index.html" class="logo">
       <img class="mainLogo" src="img/onlinelogomaker-1.svg"></img>
     </a>
-
     <div class="menu">
-
       <img id="myImg" src="img/language-50.png" alt="Click me">
             <div class="modal-content" id="myModal">
                 <span class="close">&times;</span>
                 <div class="language-buttons">
                   <button class="language-button" onclick="changeLanguage('es')">Español</button>
-                  <button class="language-button" onclick="changeLanguage('en')">English</button>
                   <button class="language-button" onclick="changeLanguage('ru')">Русский</button>
                 </div>
               </div>
-
       <strong>
         <a href="https://wa.me/34643568445"><img src="img/whatsapp_chat.png" alt="phone"><span class="text-shadow">+34
             643 56 84 45</span></a>
       </strong>
-
       <button class="burger">
         <img src="img/menu_hamburger_icon .png" onclick="openNav()    ">
       </button>
     </div>
   </header>
-
   <div class="title">
     <img src="img/oldmaster/oldmenTitle.webp" alt="">
     <h1 translate="manitas">Мастер на час</h1>
@@ -75,7 +67,6 @@
     </p>
     <hr>
   </section>
-
   <h3 style="text-align: center;" translate="our-services">Наши услуги</h3>
   <ul class="ulli" style="list-style-image: url(img/tick-premium.png);">
     <li translate="manitas-4">Вы купили потолочный вентилятор и не знаете как его установить?</li>
@@ -140,8 +131,6 @@
       <img src="img/phone.svg" alt=""> +34643568445</a>
     <p>&copy; 2024 Handyman VLC. </p>
   </footer>
-
-
   <script src="script.js"></script>
   <script>
     function openNav() {
@@ -150,7 +139,6 @@
     function closeNav() {
       document.getElementById('myNav').style.width = "0%";
     }
-
     document.addEventListener('DOMContentLoaded', () => {
       const form = document.getElementById('form');
       form.addEventListener('submit', (event) => {
@@ -166,5 +154,4 @@
     });
   </script>
 </body>
-
 </html>
