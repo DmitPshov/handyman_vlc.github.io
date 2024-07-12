@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +9,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="swiper-bundle.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-
 </head>
-
 <body>
   <div class="overlay-meny" id="myNav">
     <a href="#" class="closebtn" onclick="closeNav()">x</a>
@@ -32,29 +29,24 @@
     <a href="index.html" class="logo">
       <img class="mainLogo" src="img/onlinelogomaker-1.svg"></img>
     </a>
-
     <div class="menu">
       <img id="myImg" src="img/language-50.png" alt="Click me">
       <div class="modal-content" id="myModal">
         <span class="close">&times;</span>
         <div class="language-buttons">
           <button class="language-button" onclick="changeLanguage('es')">Español</button>
-          <button class="language-button" onclick="changeLanguage('en')">English</button>
           <button class="language-button" onclick="changeLanguage('ru')">Русский</button>
         </div>
       </div>
-
       <strong>
         <a href="https://wa.me/34643568445"><img src="img/whatsapp_chat.png" alt="phone"><span class="text-shadow">+34
             643 56 84 45</span></a>
       </strong>
-
       <button class="burger">
         <img src="img/menu_hamburger_icon .png" onclick="openNav()    ">
       </button>
     </div>
   </header>
-
   <div class="title">
     <img src="img/rollet/rolletTitle.webp" alt="">
     <h1 style="text-shadow: -1px 0 1px white,2px 2px 3px black;" translate="persianista1">Жаллюзи. Роллеты.</h1>
@@ -139,7 +131,6 @@
     </div>
   </section>
   <hr>
-
   <footer class="footer">
     <div class="social-media">
       <a href="https://www.facebook.com/handyman.vlc">
@@ -153,8 +144,6 @@
       <img src="img/phone.svg" alt=""> +34643568445</a>
     <p>&copy; 2024 Handyman VLC. </p>
   </footer>
-
-
   <script src="script.js"></script>
   <script src="swiper-bundle.min.js"></script>
   <script>
@@ -164,7 +153,6 @@
     function closeNav() {
       document.getElementById('myNav').style.width = "0%";
     }
-
      var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
       centeredSlides: true,
@@ -182,7 +170,6 @@
         prevEl: ".swiper-button-prev",
       },
     });
-
     document.addEventListener('DOMContentLoaded', () => {
       const form = document.getElementById('form');
       form.addEventListener('submit', (event) => {
@@ -196,8 +183,6 @@
         window.location.href = url;
       });
     });
-
   </script>
 </body>
-
 </html>
