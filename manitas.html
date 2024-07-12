@@ -16,15 +16,15 @@
   <div class="overlay-meny" id="myNav">
     <a href="#" class="closebtn" onclick="closeNav()">x</a>
     <div class="navbar-content">
-      <a href="manitas.html">Мастер на час</a>
-      <a href="electricista.html">Электрика</a>
-      <a href="fontaneros.html">Сантехника</a>
-      <a href="aire-acondicionado.html">Кондиционирование</a>
-      <a href="videovigilancia.html">Охранные системы</a>
-      <a href="persianista.html">Роллеты</a>
-      <a href="reparacion.html">Ремонт быттехники</a>
-      <a href="muebles.html">Мебель</a>
-      <a href="contacts.html">Контакты</a>
+      <a href="manitas.html" translate="manitas">Мастер на час</a>
+      <a href="electricista.html" translate="electricista">Электрика</a>
+      <a href="fontaneros.html" translate="fontaneros">Сантехника</a>
+      <a href="aire-acondicionado.html" translate="aire-acondicionado">Кондиционирование</a>
+      <a href="videovigilancia.html" translate="videovigilancia">Охранные системы</a>
+      <a href="persianista.html" translate="persianista">Роллеты</a>
+      <a href="reparacion.html" translate="reparacion">Ремонт быттехники</a>
+      <a href="muebles.html" translate="muebles">Мебель</a>
+      <a href="contacts.html" translate="contacts">Контакты</a>
     </div>
   </div>
   <header id="main-header">
@@ -34,11 +34,15 @@
 
     <div class="menu">
 
-      <select class="change-lang">
-        <option value="" class="change-lang">ES</option>
-        <option value="" class="change-lang">EN</option>
-        <option value="" class="change-lang">RU</option>
-      </select>
+      <img id="myImg" src="img/language-50.png" alt="Click me">
+            <div class="modal-content" id="myModal">
+                <span class="close">&times;</span>
+                <div class="language-buttons">
+                  <button class="language-button" onclick="changeLanguage('es')">Español</button>
+                  <button class="language-button" onclick="changeLanguage('en')">English</button>
+                  <button class="language-button" onclick="changeLanguage('ru')">Русский</button>
+                </div>
+              </div>
 
       <strong>
         <a href="https://wa.me/34643568445"><img src="img/whatsapp_chat.png" alt="phone"><span class="text-shadow">+34
@@ -53,66 +57,73 @@
 
   <div class="title">
     <img src="img/oldmaster/oldmenTitle.webp" alt="">
-    <h1>Специалист широкого профиля<br>(Мастер на час)</h1>
+    <h1 translate="manitas2">Специалист широкого профиля<br>(Мастер на час)</h1>
   </div>
   <hr>
   <section class="about">
-    <h3>Ищете хорошего мастера для решения бытовых задач?<br><br>Тогда вы по адресу!</h3>
+    <h3 translate="manitas-1">Ищете хорошего мастера для решения бытовых задач?<br><br>Тогда вы по адресу!</h3>
     <hr>
     <p>
-      <b>Мастер на час это тот специалист, который может решить задачи широкого профиля без привлечения профессионалов из
-      нескольких областей.</b> <br>
+      <b translate="manitas-2">Мастер на час это тот специалист, который может решить задачи широкого профиля без
+        привлечения профессионалов из
+        нескольких областей.</b>
+    </p>
+    <p translate="manitas-3">
       К примеру вам нужно повесить полку, заменить бойлер и отремонтировать розетку одновременно.<br>
       Вместо того, чтобы вызывать несколько специалистов одновременно, вы можете вызвать мастера на час для решения
       вашего комплекса задач.
     </p>
     <hr>
   </section>
-  
-  <h3 style="text-align: center;">Наши услуги</h3>
+
+  <h3 style="text-align: center;" translate="our-services">Наши услуги</h3>
   <ul class="ulli" style="list-style-image: url(img/tick-premium.png);">
-    <li>Вы купили потолочный вентилятор и не знаете как его установить?</li>
-    <li>У вас сломались жалюзи и вы не знаете как их починить?</li>
-    <li>Вы хотите поменять кухонную столешницу или душевую перегородку?</li>
-    <li>Хотели бы разместить картины, зеркала, шторы, жалюзи, светильники?</li>
-    <li>Вы хотите заменить галогенные лампы на светодиодные?</li>
-    <li>Это и многое другое могут сделать для вас наши мастера на час!</li>
-    <li>Вы просто излагаете свою идею или продукт, который хотите починить, собрать или установить, а мы позаботимся обо всем остальном.</li>
+    <li translate="manitas-4">Вы купили потолочный вентилятор и не знаете как его установить?</li>
+    <li translate="manitas-5">У вас сломались жалюзи и вы не знаете как их починить?</li>
+    <li translate="manitas-6">Вы хотите поменять кухонную столешницу или душевую перегородку?</li>
+    <li translate="manitas-7">Хотели бы разместить картины, зеркала, шторы, жалюзи, светильники?</li>
+    <li translate="manitas-8">Вы хотите заменить галогенные лампы на светодиодные?</li>
+    <li translate="manitas-9">Это и многое другое могут сделать для вас наши мастера на час!</li>
+    <li translate="manitas-10">Вы просто излагаете свою идею или продукт, который хотите починить, собрать или
+      установить, а мы позаботимся обо всем остальном.</li>
   </ul>
-  <h4 class="about">Можете положиться на наших специалистов, имеющих большой опыт в этой области. </h4>
+  <h4 class="about" translate="manitas-11">Можете положиться на наших специалистов, имеющих большой опыт в этой области.
+  </h4>
   <hr>
   <section class="about">
-    <h3>Цены</h3>
-    <p>РАБОЧЕЕ ВРЕМЯ/ЕВРО</p>
-    <p>От 25 &#8364;/ час</p>
-    <p>
-      Вы можете обратиться к нам за услугами мастера на час в <span style="color:rgb(193, 29, 29);"> <b>Валенсии</b></span> ,по предварительной записи, позвонив или написав нам.
+    <h3 translate="prices">Цены</h3>
+    <p translate="prices-hour">От 25 &#8364;/ час</p>
+    <p translate="prices-about">
+      Вы можете обратиться к нам за услугами мастера на час в <span style="color:rgb(193, 29, 29);">
+        <b>Валенсии</b></span> ,по предварительной записи, позвонив или написав нам.
     </p>
-    <p>
-        Так же доступна услуга <span style="color:rgb(193, 29, 29);">экстренного вызова</span> специалиста.
+    <p translate="urgently">
+      Так же доступна услуга <span style="color:rgb(193, 29, 29);">экстренного вызова</span> специалиста.
     </p>
-    <h4>Позвоните нам по телефону</h4>
+    <h4 translate="coll">Позвоните нам по телефону</h4>
     <a href="tel:+34643568445"><img src="img/phone2.png" alt=""> 643568445</a>
     <br><br>
-    <h4>Или отправьте нам whatsapp</h4>
+    <h4 translate="whatsapp">Или отправьте нам whatsapp</h4>
     <a href="https://wa.me/34643568445"><img src="img/whatsapp_chat.png" alt="phone">+34 643 56 84 45</a>
   </section>
   <hr>
-<section class="contacts">
+  <section class="contacts">
     <div class="box-container">
-        <div class="content">
-            <h3>ЛУЧШИЕ В ВАЛЕНСИИ</h3>
-            <h2>У вас есть вопросы или нужна помощь с ремонтом?</h2>
-            <p>Заполните форму обратной связи и мы       
-                свяжемся  с вами в ближайшее время,
-                чтобы обсудить возможности ремонта! Наш компетентный и дружелюбный персонал готов помочь вам в любое время.</p>
-        </div>
-<form class="form" id="form">
-  <input type="text" id="name" required placeholder="Enter your name">
-  <input type="tel" id="phone" required placeholder="Enter your phone">
-  <textarea id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
-  <button type="submit" class="btn">Оставить заявку</button>
-</form>
+      <div class="content">
+        <h3 translate="best-in-valencia">ЛУЧШИЕ В ВАЛЕНСИИ</h3>
+        <h2 translate="contact-us">У вас есть вопросы или нужна помощь с ремонтом?</h2>
+        <p translate="contact-description">Заполните форму обратной связи и мы
+          свяжемся с вами в ближайшее время,
+          чтобы обсудить возможности ремонта! Наш компетентный и дружелюбный персонал готов помочь вам в любое время.
+        </p>
+      </div>
+      <form class="form" id="form">
+        <input type="text" id="name" required placeholder="Enter your name" translate="name-placeholder">
+        <input type="tel" id="phone" required placeholder="Enter your phone" translate="phone-placeholder">
+        <textarea id="message" cols="30" rows="10" placeholder="Enter your message"
+          translate="message-placeholder"></textarea>
+        <button type="submit" class="btn" translate="submit">Оставить заявку</button>
+      </form>
     </div>
   </section>
   <hr>
@@ -131,7 +142,7 @@
   </footer>
 
 
-
+  <script src="script.js"></script>
   <script>
     function openNav() {
       document.getElementById('myNav').style.width = "100%";
@@ -141,8 +152,8 @@
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-    const form = document.getElementById('form');   
-    form.addEventListener('submit', (event) => {
+      const form = document.getElementById('form');
+      form.addEventListener('submit', (event) => {
         event.preventDefault();
         const name = document.getElementById('name').value;
         const phone = document.getElementById('phone').value;
@@ -151,8 +162,8 @@
         const text = `Name: ${name}\nPhone: ${phone}\nMessage: ${message}`;
         const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
         window.location.href = url;
+      });
     });
-});
   </script>
 </body>
 
