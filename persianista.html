@@ -34,8 +34,7 @@
     </a>
 
     <div class="menu">
-
-      <img id="myImg" src="img/language-64.png" alt="Click me">
+      <img id="myImg" src="img/language-50.png" alt="Click me">
       <div class="modal-content" id="myModal">
         <span class="close">&times;</span>
         <div class="language-buttons">
@@ -106,21 +105,17 @@
         alt="phone"><span>+34 643 56 84 45</span></a>
   </section>
   <hr>
-  <div class="swiper mySwiper" style="max-height: 300px; ">
+  <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="img/rollet/1.webp"
-          style=" display: block; max-width: 450px;height: 100%; object-fit: cover;"></div>
-      <div class="swiper-slide"><img src="img/rollet/2.webp"
-          style=" display: block; max-width: 450px;height: 100%; object-fit: cover;"></div>
-      <div class="swiper-slide"><img src="img/rollet/3.webp"
-          style=" display: block; max-width: 450px;height: 100%; object-fit: cover;"></div>
-      <div class="swiper-slide"><img src="img/rollet/4.webp"
-          style=" display: block; max-width: 450px;height: 100%; object-fit: cover;"></div>
-      <div class="swiper-slide"><img src="img/rollet/5.webp"
-          style=" display: block; max-width: 450px;height: 100%; object-fit: cover;"></div>
-      <div class="swiper-slide"><img src="img/rollet/6.webp"
-          style=" display: block; max-width: 450px;height: 100%; object-fit: cover;"></div>
+      <div class="swiper-slide"><img src="img/rollet/1.webp"></div>
+      <div class="swiper-slide"><img src="img/rollet/2.webp"></div>
+      <div class="swiper-slide"><img src="img/rollet/3.webp"></div>
+      <div class="swiper-slide"><img src="img/rollet/4.webp"></div>
+      <div class="swiper-slide"><img src="img/rollet/5.webp"></div>
+      <div class="swiper-slide"><img src="img/rollet/6.webp"></div>
     </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
     <div class="swiper-pagination"></div>
   </div>
   <hr style="margin-top: 2rem;">
@@ -170,22 +165,21 @@
       document.getElementById('myNav').style.width = "0%";
     }
 
-    var swiper = new Swiper(".mySwiper", {
-      effect: "cube",
-      grabCursor: true,
-      cubeEffect: {
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 20,
-        shadowScale: 0.94,
-      },
+     var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
       autoplay: {
-        delay: 4500,
+        delay: 2500,
         disableOnInteraction: false,
         pauseOnMouseEnter: true,
       },
       pagination: {
         el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
       },
     });
 
