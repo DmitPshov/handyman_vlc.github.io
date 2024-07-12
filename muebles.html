@@ -32,10 +32,8 @@
     <a href="index.html" class="logo">
       <img class="mainLogo" src="img/onlinelogomaker-1.svg"></img>
     </a>
-
     <div class="menu">
-
-      <img id="myImg" src="img/language-64.png" alt="Click me">
+      <img id="myImg" src="img/language-50.png" alt="Click me">
             <div class="modal-content" id="myModal">
                 <span class="close">&times;</span>
                 <div class="language-buttons">
@@ -48,13 +46,11 @@
         <a href="https://wa.me/34643568445"><img src="img/whatsapp_chat.png" alt="phone"><span class="text-shadow">+34
             643 56 84 45</span></a>
       </strong>
-
       <button class="burger">
         <img src="img/menu_hamburger_icon .png" onclick="openNav()    ">
       </button>
     </div>
   </header>
-
   <div class="title">
     <img src="img/mebel/mebelTitle.webp" alt="">
     <h1 translate="muebles1">Сборка мебели</h1>
@@ -81,8 +77,6 @@
   <h4 class="about" translate="manitas-11">Можете положиться на наших специалистов, имеющих большой опыт в этой области.
   </h4>
   <hr>
-
-
   <section class="about" style="margin-top: 5rem;">
     <h3 translate="prices">Цены</h3>
     <p translate="muebles10">
@@ -100,16 +94,17 @@
     <a href="https://wa.me/34643568445"><img src="img/whatsapp_chat.png" alt="phone">+34 643 56 84 45</a>
   </section>
   <hr>
-  <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="img/mebel/1.webp" /></div>
-      <div class="swiper-slide"><img src="img/mebel/2.webp" /></div>
-      <div class="swiper-slide"><img src="img/mebel/3.webp" /></div>
-      <div class="swiper-slide"><img src="img/mebel/4.webp" /></div>
-      <div class="swiper-slide"><img src="img/mebel/5.webp" /></div>
-      <div class="swiper-slide"><img src="img/mebel/6.webp" /></div>
+      <div class="swiper-slide"><img src="img/mebel/1.webp"></div>
+      <div class="swiper-slide"><img src="img/mebel/2.webp"></div>
+      <div class="swiper-slide"><img src="img/mebel/3.webp"></div>
+      <div class="swiper-slide"><img src="img/mebel/4.webp"></div>
+      <div class="swiper-slide"><img src="img/mebel/5.webp"></div>
+      <div class="swiper-slide"><img src="img/mebel/6.webp"></div>
     </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
     <div class="swiper-pagination"></div>
   </div>
   <hr style="margin-top: 4rem;">
@@ -155,27 +150,23 @@
     function closeNav() {
       document.getElementById('myNav').style.width = "0%";
     }
-    // Слайдер
-
-    var swiper = new Swiper(".mySwiper", {
-      effect: "cube",
-      grabCursor: true,
-      cubeEffect: {
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 20,
-        shadowScale: 0.94,
-      },
+     var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
       autoplay: {
-        delay: 4500,
+        delay: 2500,
         disableOnInteraction: false,
         pauseOnMouseEnter: true,
       },
       pagination: {
         el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
       },
     });
-
     document.addEventListener('DOMContentLoaded', () => {
       const form = document.getElementById('form');
       form.addEventListener('submit', (event) => {
