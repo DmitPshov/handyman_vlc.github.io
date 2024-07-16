@@ -44,7 +44,6 @@ const translations = {
     }
   };
   function changeLanguage(languageCode) {
-    console.log("Language changed to: " + languageCode);
     setLanguage(languageCode);
   }
   document.addEventListener("DOMContentLoaded", () => {
