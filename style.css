@@ -208,6 +208,9 @@ header .text-shadow{
     right: 0;
     z-index: 1;
   }
+  .home .disc a{
+    margin-left: 5%;
+  }
   header{
     padding: 0 1%;
   }
@@ -233,6 +236,9 @@ header .text-shadow{
   .title img{
   max-width: 25rem;
 }
+  .home .disc a{
+    margin-left: 1%;
+  }
 }
 @media (max-width: 325px){
   .center a{
