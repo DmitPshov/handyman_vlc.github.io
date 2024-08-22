@@ -112,7 +112,7 @@ header img{
   height: 2.2rem;
 }
 header .burger{
-  padding: 0rem 1rem;
+ padding: 0rem 0.5rem 0rem 1rem;
  background-color: #fff;
  border: none;
 }
@@ -207,6 +207,9 @@ header .text-shadow{
     opacity: 0.2;
     right: 0;
     z-index: 1;
+  }
+  header{
+    padding: 0 1%;
   }
   header strong{
     display: none;
