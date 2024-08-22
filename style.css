@@ -284,7 +284,7 @@ header .text-shadow{
   color: #fff;
   background-color: var(--whatsap);
   border:none;
-  font-size: calc(10px + 6*(100vw / 2500));
+  font-size: calc(10px + 7*(100vw / 1500));
   font-weight: 800;
   border-radius:2rem;
 }
