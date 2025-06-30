@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Handyman VLC</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="overlay-meny" id="myNav">
+    <a href="#" class="closebtn" onclick="closeNav()">x</a>
+    <div class="navbar-content">
+      <a href="manitas.html" translate="manitas">Мастер на час</a>
+      <a href="electricista.html" translate="electricista">Электрика</a>
+      <a href="fontaneros.html" translate="fontaneros">Сантехника</a>
+      <a href="aire-acondicionado.html" translate="aire-acondicionado">Кондиционирование</a>
+      <a href="contacts.html" translate="contacts">Контакты</a>
+    </div>
+  </div>
+  <header id="main-header">
+    <a href="index.html" class="logo">
+      <img class="mainLogo" src="img/onlinelogomaker-1.svg"></img>
+    </a>
+    <div class="menu">
+       <select name="" id="" class="change-lang">
+                <option value="es">ES</option>
+                <option value="ru">RU</option>
+              </select>
+      <strong>
+        <a href="https://wa.me/34697839731"><img src="img/whatsapp_chat.png" alt="phone"><span class="text-shadow">+34 697 83 97 31</span></a>
+      </strong>
+      <button class="burger">
+        <img src="img/menu_hamburger_icon .png" onclick="openNav()    ">
+      </button>
+    </div>
+  </header>
+  <section class="contacts">
+    <div class="box-container">
+      <div class="content">
+        <h3 translate="best-in-valencia">ЛУЧШИЕ В ВАЛЕНСИИ</h3>
+        <h2 translate="contact-us">У вас есть вопросы или нужна помощь с ремонтом?</h2>
+        <p translate="contact-description">Заполните форму обратной связи и мы
+          свяжемся с вами в ближайшее время,
+          чтобы обсудить возможности ремонта! Наш компетентный и дружелюбный персонал готов помочь вам в любое время.
+        </p>
+      </div>
+      <form class="form" id="form">
+        <input type="text" id="name" required placeholder="Enter your name" translate="name-placeholder">
+        <input type="tel" id="phone" required placeholder="Enter your phone" translate="phone-placeholder">
+        <textarea id="message" cols="30" rows="10" placeholder="Enter your message"
+          translate="message-placeholder"></textarea>
+        <button type="submit" class="btn" translate="submit">Оставить заявку</button>
+      </form>
+    </div>
+  </section>
+  <hr>
+  <footer class="footer">
+    <div class="social-media">
+      <a href="https://www.facebook.com/handyman.vlc">
+        <img src="img/facebook.svg" alt=""></a>
+      <a href="https://www.instagram.com/handyman_vlc">
+        <img src="img/instagram.svg" alt=""></a>
+      <a href="https://wa.me/34697839731">
+        <img src="img/whatsapp.svg" alt=""></a>
+    </div>
+    <a href="tel:+34697839731" class="phone_footer">
+      <img src="img/phone.svg" alt=""> +34697839731</a>
+    <p>&copy; 2024 Handyman VLC. </p>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    function openNav() {
+      document.getElementById('myNav').style.width = "100%";
+    }
+    function closeNav() {
+      document.getElementById('myNav').style.width = "0%";
+    }
+  </script>
+</body>
+</html>
