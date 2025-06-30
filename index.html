@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title translate="title">Handyman VLC</title>
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay-meny" id="myNav">
+        <a href="#" class="closebtn" onclick="closeNav()">x</a>
+        <div class="navbar-content">
+            <a href="manitas.html" translate="manitas">Мастер на час</a>
+            <a href="electricista.html" translate="electricista">Электрика</a>
+            <a href="fontaneros.html" translate="fontaneros">Сантехника</a>
+            <a href="aire-acondicionado.html" translate="aire-acondicionado">Кондиционирование</a>
+            <a href="contacts.html" translate="contacts">Контакты</a>
+        </div>
+    </div>
+    <header id="main-header">
+        <a href="index.html" class="logo" aria-label="logo">
+            <img class="mainLogo" src="img/onlinelogomaker-1.svg" alt="logo"></img>
+        </a>
+        <div class="menu">
+            <select name="" id="" class="change-lang">
+                <option value="es">ES</option>
+                <option value="ru">RU</option>
+              </select>
+            <strong>
+                <a href="https://wa.me/34697839731"><img src="img/whatsapp_chat.png" alt="phone"><span
+                        class="text-shadow">+34 697 83 97 31</span></a>
+            </strong>
+            <button class="burger">
+                <img src="img/menu_hamburger_icon .png" alt="burger-menu" onclick="openNav()">
+            </button>
+        </div>
+    </header>
+    <section class="home">
+        <div class="disc">
+            <h1 translate="home-heading">
+                Заказывай услуги<br>
+                проверенных мастеров в Валенсии<br>
+                и обеспечь себе <br> качественное выполнение всех необходимых работ!
+            </h1>
+            <a href="https://wa.me/34697839731" translate="call-specialist">ВЫЗОВ СПЕЦИАЛИСТА</a>
+        </div>
+        <img class="imgHome" src="img/logo2.webp" alt="lead"></img>
+    </section>
+    <hr>
+    <section class="about">
+        <h2 translate="about-us">О нас</h2>
+        <p translate="about-text">
+            Наши квалифицированные специалисты могут вам помочь в СРОЧНОМ порядке. <br>
+            Идея нашего сервиса в том, чтобы решить АБСОЛЮТНО любой вопрос, возникший в вашем жилище. <br>
+        </p>
+        <hr>
+        <p style="color: rgb(226, 5, 5);" translate="services-intro">
+            Сервис оказания бытовых услуг Handyman VLC:
+        </p>
+    </section>
+    <ul class="ulli">
+        <li translate="service-1">Установка и чистка кондиционера.</li>
+        <li translate="service-6">Монтаж любого электрооборудования.</li>
+        <li translate="service-7">Установка и замена любого компонента системы водоснабжения.</li>
+        <li translate="service-10">Специалист широкого профиля <b>«Мастер на час»</b></li>
+    </ul>
+    <hr>
+    <section class="about">
+        <p translate="emergency-service">
+            Обращайтесь к нам и мы будем готовы приступить к работе в удобное для вас время, так как у нас доступна
+            услуга
+            экстренного вызова специалистов.
+        </p>
+        <p translate="learn-more">
+            Переходите по интересующим ссылкам, чтобы подробнее узнать о наших услугах.
+        </p>
+    </section>
+    <div class="center">
+        <a href="tel:+34697839731">
+            <img src="img/phone2.png" alt="">
+            <span translate="emergency-call">ЭКСТРЕННЫЙ ВЫЗОВ СПЕЦИАЛИСТА</span>
+        </a>
+    </div>
+    <hr>
+    <h2 translate="services-title">Услуги</h2>
+    <main class="box-container">
+        <a href="manitas.html" style="background-image: url(img/oldmaster/masterold.webp);">
+            <h3 translate="manitas" style="margin-bottom:4rem">Мастер на час</h3>
+        </a>
+        <a href="electricista.html" style="background-image: url(img/electrik/electrica.webp);">
+            <h3 translate="electricista">Электрика</h3>
+        </a>
+        <a href="fontaneros.html" style="background-image: url(img/santechnik/santechnica.webp);">
+            <h3 translate="fontaneros">Сантехника</h3>
+        </a>
+        <a href="aire-acondicionado.html" style="background-image: url(img/air_condicion/condition.webp);">
+            <h3 translate="aire-acondicionado">Кондиционирование</h3>
+        </a>
+    </main>
+    <hr>
+    <section class="contacts">
+        <div class="box-container">
+            <div class="content">
+                <h3 translate="best-in-valencia">ЛУЧШИЕ В ВАЛЕНСИИ</h3>
+                <h2 translate="contact-us">У вас есть вопросы или нужна помощь с ремонтом?</h2>
+                <p translate="contact-description">Заполните форму обратной связи и мы
+                    свяжемся с вами в ближайшее время,
+                    чтобы обсудить возможности ремонта! Наш компетентный и дружелюбный персонал готов помочь вам в любое
+                    время.
+                </p>
+            </div>
+            <form class="form" id="form">
+                <input type="text" id="name" required placeholder="Enter your name" translate="name-placeholder">
+                <input type="tel" id="phone" required placeholder="Enter your phone" translate="phone-placeholder">
+                <textarea id="message" cols="30" rows="10" placeholder="Enter your message"
+                    translate="message-placeholder"></textarea>
+                <button type="submit" class="btn" translate="submit">Оставить заявку</button>
+            </form>
+        </div>
+    </section>
+    <hr>
+    <footer class="footer">
+        <div class="social-media">
+            <a href="https://www.facebook.com/handyman.vlc" aria-label="facebook">
+                <img src="img/facebook.svg" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/handyman_vlc" aria-label="instagram">
+                <img src="img/instagram.svg" alt="instagram">
+            </a>
+            <a href="https://wa.me/34697839731" aria-label="wa.me">
+                <img src="img/whatsapp.svg" alt="wa.me">
+            </a>
+        </div>
+        <a href="tel:+34697839731" class="phone_footer">
+            <img src="img/phone.svg" alt=""> +34697839731
+        </a>
+        <p>&copy; 2024 Handyman VLC.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById('myNav').style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById('myNav').style.width = "0%";
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('form');
+            form.addEventListener('submit', (event) => {
+                event.preventDefault();
+                const name = document.getElementById('name').value;
+                const phone = document.getElementById('phone').value;
+                const message = document.getElementById('message').value;
+                const whatsappNumber = '34697839731';
+                const text = `Name: ${name}\nPhone: ${phone}\nMessage: ${message}`;
+                const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+                window.location.href = url;
+            });
+        });
+    </script>
+</body>
+
+</html>
