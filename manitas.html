@@ -105,8 +105,40 @@
         <input type="tel" id="phone" required placeholder="Enter your phone" translate="phone-placeholder">
         <textarea id="message" cols="30" rows="10" placeholder="Enter your message"
           translate="message-placeholder"></textarea>
+             <!-- Privacy Policy Checkbox -->
+                       <label class="privacy-container">
+                         <input type="checkbox" id="privacy" style="width: 2rem;" required>
+                         <div class="bpolicy">
+                           <span>I agree to the <a href="/privacy-policy" target="_blank" >privacy policy</a></span>
+                         </div>
+                        </label>
         <button type="submit" class="btn" translate="submit">Оставить заявку</button>
       </form>
+    </div>
+  </section>
+    <!-- Cookie баннер -->
+  <section
+    id="cookieBanner"
+    class="cookie-banner"
+    role="region"
+    aria-label="Уведомление об использовании cookie"
+    aria-live="polite"
+  >
+    <div class="cookie-inner">
+      <p id="cookieText" class="cookie-text">
+       Esta web utiliza cookies propias y de terceros para su correcto funcionamiento y para fines analíticos.
+       Al hacer clic en el botón Aceptar, acepta el uso de estas tecnologías y el procesamiento de tus datos para estos propósitos.
+        <a href="/privacy-policy" target="_blank" rel="noopener"> Pinche el enlace para mayor información.</a>.
+      </p>
+
+      <div class="cookie-actions" role="group" aria-label="Cookie Consent Selection">
+        <button type="button" id="cookieReject" class="cookie-btn cookie-reject" aria-describedby="cookieText">
+          Rechazar
+        </button>
+        <button type="button" id="cookieAccept" class="cookie-btn cookie-accept" aria-describedby="cookieText">
+          Aceptar
+        </button>
+      </div>
     </div>
   </section>
   <hr>
