@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title translate="title">Handyman VLC</title>
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay-meny" id="myNav">
+        <a href="#" class="closebtn" onclick="closeNav()">x</a>
+        <div class="navbar-content">
+            <a href="manitas.html" translate="manitas">Мастер на час</a>
+            <a href="electricista.html" translate="electricista">Электрика</a>
+            <a href="fontaneros.html" translate="fontaneros">Сантехника</a>
+            <a href="aire-acondicionado.html" translate="aire-acondicionado">Кондиционирование</a>
+            <a href="contacts.html" translate="contacts">Контакты</a>
+        </div>
+    </div>
+    <header id="main-header">
+        <a href="index.html" class="logo" aria-label="logo">
+            <img class="mainLogo" src="img/onlinelogomaker-1.svg" alt="logo"></img>
+        </a>
+        <div class="menu">
+            <select name="" id="" class="change-lang">
+                <option value="es">ES</option>
+                <option value="ru">RU</option>
+              </select>
+            <strong>
+                <a href="https://wa.me/34697839731"><img src="img/whatsapp_chat.png" alt="phone"><span
+                        class="text-shadow">+34 697 83 97 31</span></a>
+            </strong>
+            <button class="burger">
+                <img src="img/menu_hamburger_icon .png" alt="burger-menu" onclick="openNav()">
+            </button>
+        </div>
+    </header>
+     <h2 style="margin: 1rem ;">Política de Privacidad</h2>
+      <p style="margin: 1rem ;">En [Handyman VLC] (en adelante, “nosotros” o “nuestro/a”), 
+        respetamos tu privacidad y estamos comprometidos con la protección de tus datos personales. 
+        Esta Política de Privacidad explica de forma clara y sencilla cómo recopilamos, utilizamos, 
+        almacenamos y protegemos tu información personal de acuerdo con el Reglamento (UE) 2016/679 (GDPR) y 
+        la Ley Orgánica 3/2018 de Protección de Datos Personales y Garantía de los Derechos Digitales (LOPDGDD).</p>
+
+      <h3 style="margin: 1rem ;">Datos que recopilamos</h3>
+       <p style="margin: 1rem ;">Podemos recopilar y tratar las siguientes categorías de datos:
+          Datos identificativos (nombre, apellidos, DNI/NIE).<br>
+          Datos de contacto (correo electrónico, teléfono, dirección postal).<br>
+          Datos de navegación (cookies, dirección IP, tipo de dispositivo y navegador).<br>
+          Cualquier otra información que nos facilites voluntariamente a través de formularios o comunicaciones.</p>
+      <h3 style="margin: 1rem ;">Finalidades del tratamiento</h3>
+       <p style="margin: 1rem ;">Utilizamos tus datos personales únicamente para:<br>
+          Gestionar las solicitudes y consultas que nos envíes.<br>
+          Prestar los servicios contratados y realizar el mantenimiento de la relación contractual. <br>
+          Enviar comunicaciones comerciales, siempre que hayas dado tu consentimiento expreso.<br>
+          Mejorar la experiencia de navegación y el funcionamiento de nuestro sitio web mediante cookies y herramientas similares (puedes consultar más en nuestra Política de Cookies).</p>
+       <h3 style="margin: 1rem ;">Base legal para el tratamiento</h3>
+        <p style="margin: 1rem ;">Tratamos tus datos en base a:<br>
+           Tu consentimiento (por ejemplo, para el envío de comunicaciones comerciales).<br>
+           La ejecución de un contrato (cuando nos solicitas un servicio).<br>
+           Cumplimiento de obligaciones legales.<br>
+           Interés legítimo para mejorar nuestros servicios y la seguridad del sitio web.</p>
+      <h3 style="margin: 1rem ;">Cookies de análisis o medición</h3>
+      <p style="margin: 1rem ;">Son aquellas que, bien tratadas por el sitio Web o por terceros,
+         permiten cuantificar el número de usuarios y así realizar la medición y análisis estadístico de la utilización que hacen los usuarios del sitio Web.
+         Para ello se analiza la navegación que realizas en este sitio Web con el fin de mejorarlo.</p>
+         <p style="margin: 1rem ;">El sitio Web utiliza cookies propias y de terceros para su correcto funcionamiento y para fines analíticos. 
+            Al hacer clic en el botón Aceptar, 
+            acepta el uso de estas tecnologías y el procesamiento de sus datos para estos propósitos.</p>
+
+       <h3 style="margin: 1rem ;">Cookies técnicas</h3>
+       <p style="margin: 1rem ;">Son aquellas que, bien tratadas por el sitio Web o por terceros, 
+        permiten cuantificar el número de usuarios y así realizar la medición y análisis estadístico de la utilización que hacen los usuarios del sitio Web.
+         Para ello se analiza la navegación que realizas en este sitio Web con el fin de mejorarlo.</p>
+
+
+     <footer class="footer">
+        <div class="social-media">
+            <a href="https://www.facebook.com/handyman.vlc" aria-label="facebook">
+                <img src="img/facebook.svg" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/handyman_vlc" aria-label="instagram">
+                <img src="img/instagram.svg" alt="instagram">
+            </a>
+            <a href="https://wa.me/34697839731" aria-label="wa.me">
+                <img src="img/whatsapp.svg" alt="wa.me">
+            </a>
+        </div>
+        <a href="tel:+34697839731" class="phone_footer">
+            <img src="img/phone.svg" alt=""> +34697839731
+        </a>
+        <p>&copy; 2024 Handyman VLC.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById('myNav').style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById('myNav').style.width = "0%";
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('form');
+            form.addEventListener('submit', (event) => {
+                event.preventDefault();
+                const name = document.getElementById('name').value;
+                const phone = document.getElementById('phone').value;
+                const message = document.getElementById('message').value;
+                const whatsappNumber = '34697839731';
+                const text = `Name: ${name}\nPhone: ${phone}\nMessage: ${message}`;
+                const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+                window.location.href = url;
+            });
+        });
+    </script>
+</body>
+
+</html>
